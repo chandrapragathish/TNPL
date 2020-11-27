@@ -1,0 +1,21 @@
+
+<!-- <div class="container"> -->
+    <table id="DataTable" class="display nowrap cell-border" cellspacing="0"
+    style="width:100%;font-weight:600;text-align:center;" datatable [dtOptions]="dtOptions">
+    <thead>
+        <tr style="color: #E2B842;">
+            <th>Name</th>
+            <th>Email</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let group of dataa">
+            <td>{{group.name}}</td>
+            <td>{{group.email}}</td>
+            <td>{{group.website}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- </div> -->
